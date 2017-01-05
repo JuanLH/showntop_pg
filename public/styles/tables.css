@@ -1,0 +1,43 @@
+table, th, td {
+  border: none;
+}
+ #tuser th, #tuser td {
+  border: none;
+  
+}
+
+
+
+
+.smallColumn{
+	width: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    width: 50px;
+
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #f5f0f0}
+
+tr:nth-child(even) {background-color: #f5f0f0}
+

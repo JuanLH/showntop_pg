@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 5, 2016, 2:56:53 AM
+    Author     : Juan Luis Hiciano
+*/
+
+.lateralMenu{
+    float: left;
+	width: 25%;
+        height: 100%;
+	padding:8px 0px 0px 8px;
+	border-radius: 3px;
+	border: 3px solid #037E8C;
+        margin-bottom: 15px;
+        background-color: #FFE369;
+        font-size: 16px;
+}
+
+#cat,#sub_categorias {
+    border: 1px solid #black;
+    width: 95%;
+    border-radius: 3px;
+    overflow: hidden;
+    
+}
+
+
+#cat select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+
+.categories{
+    color: #037E8C;
+}
+/*
+.menu *{
+    margin: 0; padding: 0;
+}
+.menu {
+    list-style: none;
+}
+
+.menu  li{
+    width: 100px;
+    background: #ccc;
+    padding:20px;
+    border-top: 5px solid #dfdfdf;
+    transition: opacity .2s,margin-left .5s;
+}
+.menu  li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,.1);
+}
+
+.menu  li:hover{
+    opacity: .9;
+    margin-left: 10px;
+}*/
